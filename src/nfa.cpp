@@ -253,7 +253,7 @@ namespace re::nfa
             this->createOptionalQuantifierNFA();
     }
 
-    void NFA::simulateNFA(const std::string &input)
+    bool NFA::simulateNFA(const std::string &input)
     {
         // Create NFA graph
         this->createNFA(this->ast);
@@ -289,10 +289,7 @@ namespace re::nfa
             }
         }
 
-        if (isAccept)
-            std::cout << "Accepted\n";
-        else
-            std::cout << "Not accepted\n";
+        return isAccept;
     }
 
 } // namespace re::nfa

@@ -22,7 +22,7 @@ namespace re::nfa
     public:
         NFA(std::shared_ptr<re::ast::ASTNode> _ast);
 
-        void simulateNFA(const std::string &input);
+        bool simulateNFA(const std::string &input);
 
     private:
         // null closure
