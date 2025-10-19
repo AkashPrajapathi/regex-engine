@@ -19,7 +19,7 @@ This project mimics the **textbook style regex engine** taught in compiler desig
 | `+`      | One or more | `a+`                 |
 | `?`      | Zero or one | `a?`                 |
 | `\|`     | Alternation | `a\|b`               |
-| `()`     | Grouping    | `(a\b)c`             |
+| `()`     | Grouping    | `(a\|b)c`         |
 
 ---
 
