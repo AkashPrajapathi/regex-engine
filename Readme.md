@@ -18,8 +18,8 @@ This project mimics the **textbook style regex engine** taught in compiler desig
 | `*`      | Kleene star | `a*` → 0 or more `a` |
 | `+`      | One or more | `a+`                 |
 | `?`      | Zero or one | `a?`                 |
-| `|`      | Alternation | `a|b`                |
-| `()`     | Grouping    | `(a|b)c`             |
+| `\|`     | Alternation | `a\|b`               |
+| `()`     | Grouping    | `(a\b)c`             |
 
 ---
 
