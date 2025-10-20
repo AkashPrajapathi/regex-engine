@@ -1,4 +1,4 @@
-# 🔥 RegexEngine — Build Your Own Regular Expression Engine from Scratch
+# 🔥 RegEx Engine — Build Your Own Regular Expression Engine from Scratch
 
 A **C++ implementation of a classic regex engine** built from first principles — from **AST → NFA → Simulation** using **Thompson’s construction algorithm**.  
 
@@ -19,7 +19,7 @@ This project mimics the **textbook style regex engine** taught in compiler desig
 | `+`      | One or more | `a+`                 |
 | `?`      | Zero or one | `a?`                 |
 | `\|`     | Alternation | `a\|b`               |
-| `()`     | Grouping    | `(a\|b)c`         |
+| `()`     | Grouping    | `(a\|b)c`            |
 
 ---
 
@@ -63,3 +63,15 @@ int main() {
 - [ ] 🧱 Add **NFA graph visualization**
 - [ ] 🧪 Benchmark vs **backtracking regex engines**
 
+## 🏆 Victory Checklist
+
+![Progress](https://img.shields.io/badge/Progress-Core%20Engine%20Done-brightgreen)
+![Speed](https://img.shields.io/badge/Time-2.5%20days-blue)
+![Status](https://img.shields.io/badge/Status-Shiny%20Ready-yellow)
+
+- [x] **Core RegEx Engine completed** — finished in **2.5 days** ⚡
+- [ ] Additional features / optimizations (coming soon) ✨
+- [ ] Documentation and examples 📚
+- [ ] Tests and edge cases ✅
+
+**Status:** Shiny and ready! 🎉
